@@ -1,0 +1,23 @@
+.freshman {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .freshman h2 {
+    color: #333;
+  }
+  
+  .freshman h3 {
+    color: #555;
+  }
+  
+  .freshman p {
+    line-height: 1.6;
+  }
+  
+  .freshman ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
