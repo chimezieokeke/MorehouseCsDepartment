@@ -65,6 +65,17 @@ function Login() {
 
   return (
     <div className="login-container">
+        <div className="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/MLkjepKbA6w"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
       <div>
         <h2 className="login-title">Login</h2>
         <form className="login-form" onSubmit={handleLogin}>
@@ -90,7 +101,7 @@ function Login() {
         </form>
       </div>
       <div>
-        <h2 className="signup-title">Sign Up</h2>
+        <h2 className="login-title">Sign Up</h2>
         <form className="login-form" onSubmit={handleSignup}>
           <label htmlFor="signup-username" className="login-label">Username:</label>
           <input
